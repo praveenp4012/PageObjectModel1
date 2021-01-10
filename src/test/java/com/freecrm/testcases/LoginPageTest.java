@@ -1,5 +1,6 @@
 package com.freecrm.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -7,8 +8,6 @@ import org.testng.annotations.Test;
 import com.freecrm.base.TestBase;
 import com.freecrm.pages.HomePage;
 import com.freecrm.pages.LoginPage;
-
-import junit.framework.Assert;
 
 public class LoginPageTest extends TestBase {
 	
