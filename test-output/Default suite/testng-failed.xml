@@ -3,18 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.freecrm.testcases.HomePageTest">
+      <class name="com.freecrm.testcases.ContactsPageTest">
         <methods>
-          <include name="clickOnCompaniesButtonTest"/>
-          <include name="clickOnDealsButtonTest"/>
-          <include name="clickOnContactsButtonTest"/>
-          <include name="validateCrmLogoTest"/>
-          <include name="validateTitleOfHomePageTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="validateUsernameLabelTest"/>
+          <include name="addNewContactTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.freecrm.testcases.HomePageTest -->
+      </class> <!-- com.freecrm.testcases.ContactsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
