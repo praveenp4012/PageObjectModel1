@@ -40,14 +40,36 @@ public class ContactsPage extends TestBase {
 		return contactsTextLabel.isDisplayed();
 	}
 	
-	public void addNewContact() {
+	// Datadriven thru Parameters
+	/*public void addNewContactParam(String firstnm, String lastnm, String email, String position ) {
 		addNewContactBtn.click();
-		firstNameTextBox.sendKeys(prop.getProperty("firstname1"));
-		lastNameTextBox.sendKeys(prop.getProperty("lastname1"));
-		emailAddTextBox.sendKeys(prop.getProperty("email1"));
-		positionTextBox.sendKeys(prop.getProperty("position1"));
-		companyTextBox.sendKeys(prop.getProperty("company1"));
+		
+		firstNameTextBox.sendKeys(firstnm);
+		lastNameTextBox.sendKeys(lastnm);
+		emailAddTextBox.sendKeys(email);
+		positionTextBox.sendKeys(position);
+		saveBtn.click();
+	}*/
+	
+	// Datadriven thru Properties file
+		/*public void addNewContactProp() {
+			addNewContactBtn.click();
+			firstNameTextBox.sendKeys(prop.getProperty("firstname1"));
+			lastNameTextBox.sendKeys(prop.getProperty("lastname1"));
+			emailAddTextBox.sendKeys(prop.getProperty("email1"));
+			positionTextBox.sendKeys(prop.getProperty("position1"));
+			companyTextBox.sendKeys(prop.getProperty("company1"));
+			saveBtn.click();
+		}*/
+ 
+	// Datadriven thru Excel file
+	public void addNewContactExcel(String firstnm, String lastnm, String email, String position) {
+		addNewContactBtn.click();
+		
+		firstNameTextBox.sendKeys(firstnm);
+		lastNameTextBox.sendKeys(lastnm);
+		emailAddTextBox.sendKeys(email);
+		positionTextBox.sendKeys(position);
 		saveBtn.click();
 	}
- 
 }

@@ -16,7 +16,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//span[text()='Praveen P']")
 	WebElement usernameLabel;
 	
-	@FindBy(xpath="//div[@class='header item']")
+	@FindBy(xpath="//div[@class='header item11']")
 	WebElement crmLogo;
 	
 	@FindBy(xpath="//span[text()='Contacts']")

@@ -39,12 +39,12 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals("Cogmento CRM", titleofHomePage);
 	}
 	
-	@Test(priority=2)
+	/*@Test(priority=2)
 	public void validateUsernameLabelTest() {
 		homePage = new HomePage();
 		boolean userNameLabelOfHomePage = homePage.validateUsernameLabel();
 		Assert.assertTrue(userNameLabelOfHomePage);
-	}
+	}*/
 	
 	@Test(priority=3)
 	public void validateCrmLogoTest() {
@@ -53,7 +53,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(crmLogoOfHomePage);
 	}
 	
-	@Test(priority=4)
+	/*@Test(priority=4)
 	public void clickOnContactsButtonTest() {
 		homePage = new HomePage();
 		contactsPage = homePage.clickOnContactsButton();
@@ -69,7 +69,7 @@ public class HomePageTest extends TestBase {
 	public void clickOnDealsButtonTest() {
 		homePage = new HomePage();
 		dealsPage = homePage.clickOnDealsButton();
-	}
+	}*/
 	
 	@AfterMethod
 	public void tearDown() {
