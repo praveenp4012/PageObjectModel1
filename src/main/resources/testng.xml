@@ -1,10 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="PageObjectModel1" verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.freecrm.extentreportlistener.ExtentReporterNG"></listener>
+	</listeners>
+
 	<test name="Test Runner for FreeCRM portal">
 		<classes>
 			<class name="com.freecrm.testcases.LoginPageTest"></class>
-			<class name="com.freecrm.testcases.HomePageTest"></class>
-			<class name="com.freecrm.testcases.ContactsPageTest"></class>
+			<!-- <class name="com.freecrm.testcases.HomePageTest"></class>
+			<class name="com.freecrm.testcases.ContactsPageTest"></class> -->
 		</classes>
 	</test>
 </suite>
