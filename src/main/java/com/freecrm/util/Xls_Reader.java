@@ -1,4 +1,4 @@
-package com.freecrm.util;
+/*package com.freecrm.util;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -48,7 +48,7 @@ public class Xls_Reader {
 
 	}
 
-	/**
+	*//**
 	 * Code has been updated as per new POI version - 4.x.x
 	 * 
 	 * @author NaveenKhunteta
@@ -56,7 +56,7 @@ public class Xls_Reader {
 	 * @param colNum
 	 * @param rowNum
 	 * @return
-	 */
+	 *//*
 	// returns the data from a cell
 	public String getCellData(String sheetName, String colName, int rowNum) {
 		try {
@@ -125,7 +125,7 @@ public class Xls_Reader {
 		}
 	}
 
-	/**
+	*//**
 	 * Code has been updated as per new POI version - 4.x.x
 	 * 
 	 * @author NaveenKhunteta
@@ -133,7 +133,7 @@ public class Xls_Reader {
 	 * @param colNum
 	 * @param rowNum
 	 * @return
-	 */
+	 *//*
 	// returns the data from a cell
 	public String getCellData(String sheetName, int colNum, int rowNum) {
 		try {
@@ -486,3 +486,4 @@ public class Xls_Reader {
 	}
 
 }
+*/

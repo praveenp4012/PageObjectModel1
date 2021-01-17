@@ -9,8 +9,8 @@
 	<test name="Test Runner for FreeCRM portal">
 		<classes>
 			<class name="com.freecrm.testcases.LoginPageTest"></class>
-			<!-- <class name="com.freecrm.testcases.HomePageTest"></class>
-			<class name="com.freecrm.testcases.ContactsPageTest"></class> -->
+			<class name="com.freecrm.testcases.HomePageTest"></class>
+			<!-- <class name="com.freecrm.testcases.ContactsPageTest"></class> -->
 		</classes>
 	</test>
 </suite>

@@ -1,4 +1,4 @@
-package com.freecrm.testcases;
+/*package com.freecrm.testcases;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -37,24 +37,24 @@ public class ContactsPageTest extends TestBase {
 		
 	}
 	
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void validateContactsLabelTest() {
 		contactsPage = new ContactsPage();		
 		boolean contactLabel = contactsPage.validateContactsLabel();
 		Assert.assertTrue(contactLabel);
-	}*/
+	}
 	
-/*	@Test(priority=2)
+	@Test(priority=2)
 	public void addNewContactParamTest() {
 		contactsPage = new ContactsPage();		
 		contactsPage.addNewContactParam("Sachin","Tend","sachin.ten@gmail.com","Batsman");
-	}*/
+	}
 	
-/*	@Test(priority=3)
+	@Test(priority=3)
 	public void addNewContactPropTest() {
 		contactsPage = new ContactsPage();		
 		contactsPage.addNewContactProp();
-	}*/
+	}
 	
 	@DataProvider
 	public Iterator<Object[]> getTestData() {
@@ -75,3 +75,4 @@ public class ContactsPageTest extends TestBase {
 	}
 
 }
+*/
